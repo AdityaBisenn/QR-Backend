@@ -4,7 +4,7 @@ import { mongoCheckStudentStatus, mongoConnect } from './mongoFiles';
 import cors from 'cors';
 import { sha256 } from './sha256';
 
-const port = process.env.PORT || 4545;
+const port = process.env.PORT || 3000;
 
 const app = express();
 app.use(cors());

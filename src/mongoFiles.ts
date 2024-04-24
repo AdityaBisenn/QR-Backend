@@ -1,5 +1,5 @@
 import mongoose from "mongoose";
-import { currentSlot as getCurrentSlot } from "./currentSlot";
+// import { currentSlot as getCurrentSlot } from "./currentSlot";
 
 
 const studentSchema = new mongoose.Schema({
